@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>krtk_vrm • Portfolio</title>
+
+    <!-- Professional Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Global Theme */
+        :root {
+            --bg: #0d0e12;
+            --card: rgba(255,255,255,0.04);
+            --border: rgba(255,255,255,0.1);
+            --text: #d0d0d0;
+            --accent: #4db8ff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+        }
+
+        /* Layout */
+        header {
+            padding: 120px 20px 60px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            letter-spacing: -1px;
+            color: white;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.8;
+            margin-top: 10px;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        h2 {
+            color: var(--accent);
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        /* Card Style */
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 25px 30px;
+            margin-bottom: 25px;
+            transition: 0.25s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .card:hover {
+            border-color: var(--accent);
+            transform: translateY(-4px);
+        }
+
+        /* Projects Grid */
+        .projects {
+            display: grid;
+            gap: 20px;
+        }
+
+        @media (min-width: 768px) {
+            .projects {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* Links */
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: 0.2s;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 40px;
+            text-align: center;
+            opacity: 0.6;
+            font-size: 0.9rem;
+        }
+        /* Coding Profiles Section */
+.profiles-grid {
+    display: grid;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+@media (min-width: 700px) {
+    .profiles-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.profile-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text);
+    transition: 0.25s ease;
+    backdrop-filter: blur(10px);
+}
+
+.profile-card img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 12px;
+    opacity: 0.9;
+    transition: 0.2s;
+}
+
+.profile-card span {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.profile-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-6px);
+}
+
+.profile-card:hover img {
+    opacity: 1;
+    transform: scale(1.07);
+}
+#bgCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    background: #0d0e12;
+}
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>krtk_vrm</h1>
+        <p>Developer • Algorithms • Future Quant</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <div class="card">
+            <p>
+                I'm a B.Tech student from NIT Kurukshetra who enjoys building efficient logic, exploring physics, 
+                and experimenting with ideas that sit at the intersection of code and mathematics.  
+                My current focus is sharpening my fundamentals in C, DSA, and computational thinking 
+                while preparing for a future in quantitative finance.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <div class="card">
+            <p>C, C++, Data Structures & Algorithms, Git, Linux, Problem Solving, OOP, Competitive Programming</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Coding Profiles</h2>
+
+        <div class="profiles-grid">
+
+            <a class="profile-card" href="https://github.com/krtk-vrm" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub">
+                <span>GitHub</span>
+            </a>
+
+
+        <a class="profile-card" href="https://leetcode.com/u/krtk_vrm" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode">
+            <span>LeetCode</span>
+        </a>
+        
+        <a class="profile-card" href="https://www.geeksforgeeks.org/user/krtk" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg" alt="GFG">
+            <span>GeeksforGeeks</span>
+        </a>
+        
+        <a class="profile-card" href="https://www.codechef.com/users/krtk_vrm" target="_blank">
+            <img src="https://cdn.codechef.com/sites/all/themes/abessive/cc-logo.svg" alt="CodeChef">
+            <span>CodeChef</span>
+        </a>
+        
+        <a class="profile-card" href="https://codeforces.com/profile/krtk_vrm" target="_blank">
+            <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="CodeForces">
+            <span>CodeForces</span>
+        </a>
+
+        
+    </div>
+</section>
+<section>
+    <h2>Projects</h2>
+    <div class="projects">
+
+        <div class="card">
+            <h3 style="color:white">Project Title</h3>
+            <p>Short explanation of what the project does and why it matters.</p>
+            <a href="#" target="_blank">GitHub →</a>
+        </div>
+
+        <div class="card">
+            <h3 style="color:white">Another Project</h3>
+            <p>Brief description. Keep it crisp, technical, and clear.</p>
+            <a href="#" target="_blank">GitHub →</a>
+        </div>
+
+    </div>
+</section>
+
+    <section>
+        <h2>Contact</h2>
+        <div class="card">
+            <p>Email: kartik2104verma@gmail.com</p>
+            <p>GitHub: <a href="https://github.com/krtk-vrm" target="_blank">github.com/krtk-vrm</a></p>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 krtk_vrm — All logic compiled successfully.
+    </footer>
+    <canvas id="bgCanvas"></canvas>
+
+<script>
+const canvas = document.getElementById("bgCanvas");
+const ctx = canvas.getContext("2d");
+
+let w, h;
+function resize() {
+    w = canvas.width = window.innerWidth;
+    h = canvas.height = window.innerHeight;
+}
+window.addEventListener("resize", resize);
+resize();
+
+const dots = [];
+const DOT_COUNT = 70;
+
+for (let i = 0; i < DOT_COUNT; i++) {
+    dots.push({
+        x: Math.random() * w,
+        y: Math.random() * h,
+        z: Math.random() * 3 + 1,
+        vx: (Math.random() - 0.5) * 0.4,
+        vy: (Math.random() - 0.5) * 0.4
+    });
+}
+
+document.addEventListener("mousemove", (e) => {
+    mouse.x = e.clientX;
+    mouse.y = e.clientY;
+});
+
+const mouse = { x: null, y: null };
+
+function draw() {
+    ctx.clearRect(0, 0, w, h);
+
+    dots.forEach((a, i) => {
+        a.x += a.vx;
+        a.y += a.vy;
+
+        if (a.x < 0 || a.x > w) a.vx *= -1;
+        if (a.y < 0 || a.y > h) a.vy *= -1;
+
+        ctx.beginPath();
+        ctx.arc(a.x, a.y, a.z, 0, Math.PI * 2);
+        ctx.fillStyle = "rgba(150,200,255,0.7)";
+        ctx.fill();
+
+        for (let j = i + 1; j < dots.length; j++) {
+            const b = dots[j];
+            const dx = a.x - b.x;
+            const dy = a.y - b.y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+
+            if (dist < 150) {
+                ctx.strokeStyle = "rgba(100,160,255,0.2)";
+                ctx.lineWidth = 1;
+                ctx.beginPath();
+                ctx.moveTo(a.x, a.y);
+                ctx.lineTo(b.x, b.y);
+                ctx.stroke();
+            }
+        }
+    });
+
+    requestAnimationFrame(draw);
+}
+draw();
+</script>
+
+</body>
+</html>
