@@ -1,4 +1,4 @@
-# krtk_vrm — Portfolio
+# Kartik Verma — Portfolio
 
 This repository contains the source code for my personal portfolio site:  
 **https://krtk-vrm.github.io**
@@ -30,4 +30,4 @@ For collaboration or opportunities:
 ---
 
 Feel free to explore the code, fork the repo, or reach out.  
-The project will evolve as
+The project will evolve as I build more projects and learn new technology.
