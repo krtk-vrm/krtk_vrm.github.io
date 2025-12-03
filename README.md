@@ -1,33 +1,61 @@
 # Kartik Verma — Portfolio
 
-This repository contains the source code for my personal portfolio site:  
-**https://krtk-vrm.github.io**
-
-It’s a clean, minimal, modern portfolio built with pure HTML, CSS, and JavaScript — designed to stay fast, lightweight, and future-proof.  
-The site showcases my projects, coding profiles, skills, and my journey as a developer exploring algorithms and quantitative computing.
-
-### 🔧 Tech Stack
-- HTML5  
-- CSS3 (responsive, glass-UI aesthetic, custom animations)  
-- JavaScript (background animations, interactive components)  
-- GitHub Pages for deployment  
-
-### ✨ Features
-- Dark, modern UI  
-- Animated 3D background  
-- Responsive layout  
-- Coding profile cards with icons  
-- Sections for About, Skills, Projects, and Contact  
-
-### 🚀 Live Site
-You can view the portfolio here:  
+This repository contains the source code for my personal portfolio:  
 👉 **https://krtk-vrm.github.io**
 
-### 📬 Contact
-For collaboration or opportunities:  
+The site is built as a clean, modern space that reflects my interests in algorithms, systems, and the early foundations of quantitative development.  
+It stays intentionally lightweight — fast to load, smooth to use, and minimal by design.
+
+---
+
+## 🔧 Tech Stack
+
+**Core Languages**
+- **C** — systems fundamentals, memory-level problem solving  
+- **C++** — STL, competitive programming, high-performance logic  
+- **Python** — scripting, algorithms, data analysis, early quantitative work
+- **Javascript** — animations, interactivity, light scripting 
+
+**Web Technologies**
+- **HTML5** — semantic structure  
+- **CSS3** — responsive design, glass-UI, modern layouts  
+
+**UI / Visual Layer**
+- Canvas-based 3D-style background animation  
+- **SVG** icons and scalable vector assets  
+- **CSS Grid** & **Flexbox** for structured layout  
+
+**Build & Deployment**
+- **Git** for version control  
+- **GitHub Pages** for fast, cost-free deployment  
+
+**Design & Performance**
+- Lightweight, dependency-free philosophy  
+- Dark, minimal, quant-inspired UI  
+- Fully responsive and mobile-friendly
+
+---
+
+## ✨ Features
+- Dark, glass-inspired UI  
+- Animated 3D network background  
+- Responsive design across devices  
+- Interactive coding profile cards with platform icons  
+- Sections for About, Skills, Projects, Profiles, and Contact  
+- Clean structure for future scalability  
+
+---
+
+## 🚀 Live Site
+View the portfolio here:  
+**https://krtk-vrm.github.io**
+
+---
+
+## 📬 Contact
+For collaboration, opportunities, or discussions:  
 **krtkvrm.work@gmail.com**
 
 ---
 
-Feel free to explore the code, fork the repo, or reach out.  
-The project will evolve as I build more projects and learn new technology.
+This project will continue evolving as I build new tools, complete projects, and dive deeper into algorithms, computation, and quantitative systems.
